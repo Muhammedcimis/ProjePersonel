@@ -14,7 +14,6 @@ namespace PersonelProjesiBusiness.Services
 {
     public class PersonelService : BaseService<Personel>, IPersonelService
     {
-        //Bu serviste business kodlarımızın olacağı yerdir. Burası Repository ile haberleşecek ve veritabanıyla ilgili işlemleri yapacak
         //private readonly IGenericRepository<Personel> _genericRepository;
         private readonly IPersonelRepository _personelRepository;
         private readonly HttpClient _httpClient;
