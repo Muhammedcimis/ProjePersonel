@@ -1,0 +1,11 @@
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\bin\Debug\net8.0\PersonelProjesiDomain.deps.json
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\bin\Debug\net8.0\PersonelProjesiDomain.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\bin\Debug\net8.0\PersonelProjesiDomain.pdb
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\refint\PersonelProjesiDomain.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\PersonelProjesiDomain.pdb
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDomain\obj\Debug\net8.0\ref\PersonelProjesiDomain.dll

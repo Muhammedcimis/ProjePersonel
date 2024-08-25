@@ -1,0 +1,56 @@
+﻿@using PersonelProjesiDomain.Models
+@model List<Personel>
+@{
+    Layout = "_Layout";
+}
+<h2 class="text-center mb-5">Personel Listesi</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Personel" asp-action="Create">Yeni Personel Oluştur</a>
+    </div>
+    <div class="col">
+    </div>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Cinsiyet</th>
+            <th>Zimmet</th>
+            <th>Mezuniyet</th>
+            <th>Sehir</th>
+            <th>Departman</th>
+            <th>Doğum Tarihi</th>
+            <th>Maas</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var personel in Model)
+        {
+            <tr>
+                <td>@personel.Id</td>
+                <td>@personel.Adi</td>
+                <td>@personel.Soyadi</td>
+                <td>@personel.Cinsiyet</td>
+                <td>@personel.IsZimmet</td>
+                <td>@personel.Mezuniyet</td>
+                <td>@personel.Sehir</td>
+                <td>@personel.Departman</td>
+                <td>@personel.DogumTarihi.ToString("MM/dd/yyyy")</td>
+                <td>@personel.Maas</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Personel" asp-action="Edit" asp-route-id="@personel.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Personel" asp-action="Delete" asp-route-id="@personel.Id" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

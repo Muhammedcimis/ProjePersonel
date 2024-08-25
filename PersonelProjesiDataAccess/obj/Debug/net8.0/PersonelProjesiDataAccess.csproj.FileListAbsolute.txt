@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDataAccess.deps.json
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDataAccess.runtimeconfig.json
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDataAccess.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDataAccess.pdb
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDomain.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\bin\Debug\net8.0\PersonelProjesiDomain.pdb
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\Personel.0F596C43.Up2Date
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\refint\PersonelProjesiDataAccess.dll
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.pdb
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\PersonelProjesiDataAccess.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\PersonelProjesi\PersonelProjesiDataAccess\obj\Debug\net8.0\ref\PersonelProjesiDataAccess.dll
