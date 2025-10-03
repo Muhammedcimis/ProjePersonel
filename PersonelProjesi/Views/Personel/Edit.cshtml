@@ -16,26 +16,26 @@
                     <div class="row mb-3">
                         <label class="col-sm-4 col-form-label">Personel ID</label>
                         <div class="col-sm-8">
-                            <input class="form-control-plaintext" readonly value="@ViewBag.PersonelId">
+                            <input class="form-control-plaintext" readonly value="@ViewData["PersonelId"]">
                         </div>
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Adi"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Adi">İsim</label>
                         <div class="col-sm-8">
                             <input class="form-control" asp-for="Adi">
                             <span asp-validation-for="Adi" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Soyadi"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Soyadi">Soyisim</label>
                         <div class="col-sm-8">
                             <input class="form-control" asp-for="Soyadi">
                             <span asp-validation-for="Soyadi" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Cinsiyet"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Cinsiyet">Cinsiyet</label>
                         <div class="col-sm-8 pt-2">
                             @foreach (var item in ViewBag.Cinsiyetdata as List<string>)
                             {
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="IsZimmet"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="IsZimmet">Zimmet</label>
                         <div class="col-sm-8">
                             <div class="form-check">
                                 <input class="form-check-input" asp-for="IsZimmet" type="checkbox" />
@@ -58,22 +58,24 @@
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Mezuniyet"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Mezuniyet">Mezuniyet</label>
                         <div class="col-sm-8">
-                            <select asp-for="Mezuniyet" class="form-select" asp-items="new SelectList(Model.MezuniyetBilgisi)"></select>
+                            <select asp-for="Mezuniyet" class="form-select" asp-items="new SelectList(Model.MezuniyetBilgisi)">
+                                <option value="">Üniversite Seçiniz</option>
+                            </select>
                             <span asp-validation-for="Mezuniyet" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Sehir"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Sehir">Şehir</label>
                         <div class="col-sm-8">
                             <input class="form-control" asp-for="Sehir">
                             <span asp-validation-for="Sehir" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Departman"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Departman">Departman</label>
                         <div class="col-sm-8">
                             <select class="form-select" asp-for="Departman">
                                 <option value="Pazarlama">Pazarlama</option>
@@ -87,14 +89,14 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="DogumTarihi"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="DogumTarihi">Doğum Tarihi</label>
                         <div class="col-sm-8">
                             <input type="date" class="form-control" asp-for="DogumTarihi">
                             <span asp-validation-for="DogumTarihi" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-4 col-form-label" asp-for="Maas"></label>
+                        <label class="col-sm-4 col-form-label" asp-for="Maas">Maaş</label>
                         <div class="col-sm-8">
                             <input class="form-control" asp-for="Maas">
                             <span asp-validation-for="Maas" class="text-danger"></span>
