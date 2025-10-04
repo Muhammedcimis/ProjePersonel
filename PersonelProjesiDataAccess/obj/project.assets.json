@@ -4239,11 +4239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\PersonelProjesi\\PersonelProjesiDataAccess\\PersonelProjesiDataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\ProjePersonel\\PersonelProjesiDataAccess\\PersonelProjesiDataAccess.csproj",
       "projectName": "PersonelProjesiDataAccess",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\PersonelProjesi\\PersonelProjesiDataAccess\\PersonelProjesiDataAccess.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\ProjePersonel\\PersonelProjesiDataAccess\\PersonelProjesiDataAccess.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\PersonelProjesi\\PersonelProjesiDataAccess\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\ProjePersonel\\PersonelProjesiDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4265,8 +4265,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\source\\repos\\PersonelProjesi\\PersonelProjesiDomain\\PersonelProjesiDomain.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\source\\repos\\PersonelProjesi\\PersonelProjesiDomain\\PersonelProjesiDomain.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\ProjePersonel\\PersonelProjesiDomain\\PersonelProjesiDomain.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\ProjePersonel\\PersonelProjesiDomain\\PersonelProjesiDomain.csproj"
             }
           }
         }
